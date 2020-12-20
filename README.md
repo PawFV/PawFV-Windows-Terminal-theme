@@ -1,8 +1,7 @@
 # Windows Terminal Powershell Core Paw Theme.
 
-
 ## ![](assets/demo.gif)
-## ![](assets/2020-12-20-18-13-02.png)
+
 This theme was created for the new [Windows Terminal](https://github.com/microsoft/terminal).
 
 ## Requirements
@@ -38,33 +37,35 @@ Open Windows terminal and go to settings.
 Update the file with this settings.
 
 <sup>_file:_ settings.json</sup>
+
 ```json
 {
   "defaultProfile": "{your-powershell-guid}",
 
   "profiles": {
     "defaults": {
-      // You must have Cascadia code installed otherwise 
+      // You must have Cascadia code installed otherwise
       // Use another font of your choice.
       "fontFace": "Cascadia code PL",
       "fontSize": 12
     },
-    "list": [ 
+    "list": [
       // ... defaults
       {
         "guid": "{your-powershell-guid}",
         "hidden": false,
         "name": "PowerShell",
         // I use core PowershellCore
-        "source": "Windows.Terminal.PowershellCore", 
+        "source": "Windows.Terminal.PowershellCore",
         "background": "#1b1b1b",
         "cursorColor": "#F2F2F2",
-        "snapOnInput": true   
+        "snapOnInput": true
       }
     ]
   }
 }
 ```
+
 ---
 
 ### **2. Add Paw theme.**
@@ -81,7 +82,7 @@ First go to PowerShell dir.
 It should look like this.
 ![](assets/2020-12-20-19-08-57.png)
 
-Now for simplicity open the folder 
+Now for simplicity open the folder
 
 `> ii .`
 
@@ -90,10 +91,11 @@ And copy [paw.omp.json](/paw.omp.json)
 
 ![](assets/2020-12-20-19-15-37.png)
 
---- 
+---
+
 ### **3. Update PowerShell settings.**
 
-*Note: You must have installed [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh).*
+_Note: You must have installed [oh-my-posh](https://github.com/JanDeDobbeleer/oh-my-posh)._
 
 Open Microsoft.PowerShell_profile.ps1
 
@@ -130,3 +132,9 @@ Set-PSReadLineOption -colors @{
 }
 ```
 
+---
+
+### More demos:
+
+![excecution of errors and logs](https://i.imgur.com/VdtpmRr.png)
+![Nodejs logs](assets/2020-12-20-18-13-02.png)
