@@ -1,8 +1,8 @@
 # Windows Terminal Powershell Core Paw Theme.
 
 
-## ![](demo.gif)
-## ![](2020-12-20-18-13-02.png)
+## ![](assets/demo.gif)
+## ![](assets/2020-12-20-18-13-02.png)
 This theme was created for the new [Windows Terminal](https://github.com/microsoft/terminal).
 
 ## Requirements
@@ -25,7 +25,7 @@ From the [Microsoft Official GitHub repo](https://github.com/microsoft/cascadia-
 
 Unzip `CascadiaCodePL.ttf`, Open font settings then drag and drop the font.
 
-![](2020-12-20-18-48-47.png)
+![](assets/2020-12-20-18-48-47.png)
 
 ---
 
@@ -33,7 +33,7 @@ Unzip `CascadiaCodePL.ttf`, Open font settings then drag and drop the font.
 
 Open Windows terminal and go to settings.
 
-![](2020-12-20-18-29-16.png)
+![](assets/2020-12-20-18-29-16.png)
 
 Update the file with this settings.
 
@@ -79,7 +79,7 @@ First go to PowerShell dir.
 ```
 
 It should look like this.
-![](2020-12-20-19-08-57.png)
+![](assets/2020-12-20-19-08-57.png)
 
 Now for simplicity open the folder 
 
@@ -88,7 +88,7 @@ Now for simplicity open the folder
 Then navigate to themes under `/PowerShell/oh-my-posh/{3.XX}/themes`.
 And copy [paw.omp.json](/paw.omp.json)
 
-![](2020-12-20-19-15-37.png)
+![](assets/2020-12-20-19-15-37.png)
 
 --- 
 ### **3. Update PowerShell settings.**

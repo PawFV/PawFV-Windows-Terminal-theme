@@ -1,0 +1,95 @@
+{
+  "blocks": [
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "session",
+          "style": "plain",
+          "foreground": "#F81250",
+          "properties": {
+            "postfix": "",
+            "style": "plain",
+            "prefix": "@",
+            "display_host": false,
+            "display_default_user": true
+          }
+        },
+        {
+          "type": "path",
+          "style": "plain",
+          "powerline_symbol": "\uE0B0",
+          "foreground": "#118ff2",
+          "properties": {
+            "style": "folder",
+            "prefix": "<#118ff2> ~/</>",
+            "mapped_locations": [["C:\\temp", "\ue799"]],
+            "postfix": ""
+          }
+        },
+
+        {
+          "type": "git",
+          "style": "plain",
+
+          "foreground": "#B8B80A",
+          "properties": {
+            "folder_icon": "",
+            "display_status": false,
+            "prefix": "<#ffffff>🐱‍👤git:</>",
+            "display_exit_code": true,
+            "postfix": ""
+          }
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#DCB977",
+          "properties": {
+            "prefix": " ",
+            "text": "<#07BE21>✗</>",
+            "display_exit_code": false,
+            "postfix": ""
+          }
+        }
+      ]
+    },
+    {
+      "type": "newline"
+    },
+    {
+      "type": "prompt",
+      "alignment": "left",
+      "segments": [
+        {
+          "type": "root",
+          "style": "plain",
+          "foreground": "#C0cF04",
+          "properties": {
+            "prefix": ""
+          }
+        },
+        {
+          "type": "python",
+          "style": "plain",
+          "foreground": "#100e23",
+          "properties": {
+            "prefix": " \uE235 "
+          }
+        },
+        {
+          "type": "text",
+          "style": "plain",
+          "foreground": "#7EAF46",
+          "properties": {
+            "text": "λ",
+            "postfix": "",
+            "prefix": ""
+          }
+        }
+      ]
+    }
+  ],
+  "final_space": true
+}
