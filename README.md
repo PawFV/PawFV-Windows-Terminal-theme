@@ -80,6 +80,7 @@ First go to PowerShell dir.
 ```
 
 It should look like this.
+
 ![](assets/2020-12-20-19-08-57.png)
 
 Now for simplicity open the folder
