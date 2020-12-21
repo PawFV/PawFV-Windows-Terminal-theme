@@ -1,4 +1,4 @@
-# Windows Terminal Powershell Core Paw Theme.
+# Windows Terminal Powershell Core PawFV Theme.
 
 ## ![](assets/demo.gif)
 
